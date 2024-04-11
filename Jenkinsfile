@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/Johan-Lopez-Torres/devops_pipeline_ci-cd'
+                git branch: 'main', url: 'https://github.com/Johan-Lopez-Torres/Reddit-Clone'
             }
         }
         stage("Sonarqube Analysis") {
